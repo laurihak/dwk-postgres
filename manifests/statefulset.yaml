@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   namespace: project
-  name: postgres-ss
+  name: postgres
 spec:
   serviceName: postgres-svc
   replicas: 2

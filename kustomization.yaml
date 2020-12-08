@@ -4,5 +4,5 @@ resources:
   - manifests/service.yaml 
   - manifests/statefulset.yaml 
 images:
-  - name: project-ss
+  - name: postgres
     newName: PROJECT/IMAGE
