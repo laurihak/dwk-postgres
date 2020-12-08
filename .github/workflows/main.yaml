@@ -6,7 +6,7 @@ on:
 env:
   GKE_CLUSTER: dwk-cluster
   GKE_ZONE: europe-north1-b
-  IMAGE: postgres-ss
+  IMAGE: postgres
 
 jobs:
    build-publish-deploy:
